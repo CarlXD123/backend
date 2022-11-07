@@ -1,7 +1,7 @@
 import { Sequelize } from "sequelize"
 
-const db = new Sequelize('ddhnm85ruottti', 'postgres', '4ef21c6489cdd1967fb79683dc6c5008acd60779a8c908f3dda79426a2f3e1ef', {
-    host: 'ec2-44-209-57-4.compute-1.amazonaws.com',//localhost
+const db = new Sequelize('d7qoicdc04he4k', 'postgres', '58c366e665f06a9f11c0177a88fe24ac7475cedb3d1107eb34055911926af44f', {
+    host: 'ec2-44-205-177-160.compute-1.amazonaws.com',//localhost
     dialect: 'postgres',
     logging: false,
     port:5432,
