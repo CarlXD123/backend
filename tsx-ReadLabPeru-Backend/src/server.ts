@@ -42,7 +42,7 @@ class Server {
     }
 
     config() {
-        this.app.set('port', process.env.DATABASE_URL || 5000);
+        this.app.set('port', process.env.DB || 5000
         this.app.use(cors());
         this.app.use(json({ limit: '50mb' }));
         this.app.use(
